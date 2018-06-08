@@ -10,10 +10,13 @@ import homePage from 'views/homePage/index'
 import homePageMain from 'views/homePage/index'
 import sysMumu from "views/sysMumu/index"
 import sysMumuShop from "views/sysMumu/shop"
+import notFound from 'view/notFound'
 
 Vue.use(Router)
 
 let routes = [{
+  path:'*',component:notFound
+},{
     path: "/",
     name: "index",
     component: hello,
