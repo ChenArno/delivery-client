@@ -10,7 +10,7 @@ import homePage from 'views/homePage/index'
 import homePageMain from 'views/homePage/index'
 import sysMumu from "views/sysMumu/index"
 import sysMumuShop from "views/sysMumu/shop"
-import notFound from 'view/notFound'
+import notFound from 'views/notFound'
 
 Vue.use(Router)
 
@@ -87,6 +87,6 @@ let routes = [{
 ]
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   routes
 })
