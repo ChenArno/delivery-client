@@ -1,0 +1,62 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+button,
+textarea,
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  -webkit-user-select: auto;
+  /*webkit浏览器*/
+}
+
+.table{
+  padding: 10px 20px;
+}
+.com-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.router-view{
+  height: 100%;
+  width: 100%;
+}
+.el-button{
+  padding: 6px 11px!important;
+}
+.el-upload--picture-card{
+  width: 110px!important;
+  height: 110px!important;
+  line-height: 110px!important;
+}
+.el-upload-list--picture-card .el-upload-list__item{
+  width: 110px!important;
+  height: 110px!important;
+}
+.el-table th{
+  text-align: center!important;
+}
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9 !important;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409EFF !important;
+}
